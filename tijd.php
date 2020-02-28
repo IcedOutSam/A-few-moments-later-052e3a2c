@@ -28,6 +28,6 @@ foreach($DieEneArray as $value){
     $alles = $deS + $deM + $deU + $deD;
     echo $alles;
         break;
-  }
+    }
 }
 ?>
