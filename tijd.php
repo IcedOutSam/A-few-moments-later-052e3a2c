@@ -11,23 +11,23 @@ foreach ($DieEneArray as $value) {
     $letter  = substr($value, -1);
     $letter2 = substr($value, 0, -1);
     switch ($letter) {
-      case "d":
-          $deD = $letter2 * $d;
-          break;
+    case "d":
+        $deD = $letter2 * $d;
+        break;
 
-      case 'u':
-          $deU = $letter2 * $u;
-          break;
+    case 'u':
+        $deU = $letter2 * $u;
+        break;
 
-      case 'm':
-          $deM = $letter2 * $m;
-          break;
+    case 'm':
+        $deM = $letter2 * $m;
+        break;
 
-      case 's':
-          $deS   = $letter2 * $s;
-          $alles = $deS + $deM + $deU + $deD;
-          echo $alles;
-          break;
+    case 's':
+        $deS   = $letter2 * $s;
+        $alles = $deS + $deM + $deU + $deD;
+        echo $alles;
+        break;
     }
 }
 ?>
