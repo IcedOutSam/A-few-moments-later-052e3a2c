@@ -13,7 +13,7 @@ foreach($DieEneArray as $value){
   switch ($letter) {
     case "d":
     $deD = $letter2 * $d;
-          break;
+        break;
 
     case 'u':
     $deU = $letter2 * $u;
@@ -28,6 +28,6 @@ foreach($DieEneArray as $value){
     $alles = $deS + $deM + $deU + $deD;
     echo $alles;
         break;
-    }
+  }
 }
 ?>
